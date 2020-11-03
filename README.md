@@ -8,7 +8,7 @@ Front-End Technology
 ###### BOOTSTRAP
 
 # Text Fonts
-Good Morning Eeryone
-**Good Morning Eeryone Bold**
-*Good Morning Eeryone Italic*
-***Good Morning Eeryone Bold and Italic***
+Good Morning Eeryone<br/>
+**Good Morning Eeryone Bold**<br/>
+*Good Morning Eeryone Italic*<br/>
+***Good Morning Eeryone Bold and Italic***<br/>
