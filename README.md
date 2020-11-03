@@ -1,3 +1,4 @@
+# HEADINGS -->
 # WebDesingningReactJs
 Front-End Technology
 ## Good Morning
@@ -5,3 +6,9 @@ Front-End Technology
 #### CSS
 ##### JS
 ###### BOOTSTRAP
+
+# Text Fonts
+Good Morning Eeryone
+**Good Morning Eeryone Bold**
+*Good Morning Eeryone Italic*
+***Good Morning Eeryone Bold and Italic***
