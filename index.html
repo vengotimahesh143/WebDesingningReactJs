@@ -11,14 +11,21 @@
 		p{
          background-color: pink;
 		}
-		
+		#Goodid{
+			background-color: aqua;
+			border: 2px solid #000;
+		}
+		.Good{
+			background-color: blue;
+			border: 2px solid #000 ;
+		}
 
 
 	</style>
 	<link rel="icon" href="IMG-20190405-WA0012_edi.jpg">
 </head> <!-- close tag -->
 <body> <!-- open tag -->
-<h1 style="background-color: #c45e45"> Good Morning</h1>
+<h1 style="background-color: #c45e45"> Good Morning</h1>  <!--Inline CSS-->
 <h2 class="Good"> Good Morning</h2>
 <h3>  Good Morning</h3>
 <h4>  Good Morning</h4>
@@ -29,7 +36,10 @@
 
 Growing up, Sir Tim was interested in trains and had a model railway in his bedroom. He recalls:
 </p>
+<!-- Clickable imae when clicked it redirects to target link-->
+<a href="https://docs.google.com/document/u/0/d/1lELorixtr8LpUe3-2BLC-bJ_j4FsHTSdYwl2nPHEuRE/mobilebasic">
 <img src="IMG-20190405-WA0012_edi.jpg" width="50%" height="50%" alt="Mahesh img">
+</a>
 <br>
 <label>Name</label>
 <input type="" name="">
@@ -44,14 +54,14 @@ Growing up, Sir Tim was interested in trains and had a model railway in his bedr
 </body> <!-- close tag -->
 
 <div style="color:blue; border: 2px solid green">
-	<h1>List</h1>
+	<h1>Ordered List</h1>
 	<ol>
 		<li>HTML</li>
 		<li>Git</li>
 		<li>Github</li>
 	</ol>
 
-	<h1>UnList</h1>
+	<h1>UnOrdered List</h1>
 	<ul>
 		<li>HTML</li>
 		<li>Git</li>
@@ -114,7 +124,7 @@ Growing up, Sir Tim was interested in trains and had a model railway in his bedr
 
 <div style="color:green; border: 2px solid yellow">
 	<h1>Table</h1>
-<table border="15">
+<table style="color:green;background-color: aqua;text-align: center;" border="15">
 	<tr>
 		<th>Name</th>
 		<th>Roll Number</th>
@@ -144,7 +154,7 @@ Growing up, Sir Tim was interested in trains and had a model railway in his bedr
 </table>
 
 </div>
-<div style="border: 2px solid blue; text-align: center;">
+<div style="border: 2px solid blue; text-align: left;padding: 20px;">
 	<form>
 		<label>Name</label><br>
 		<input type="text" name=""><br>
@@ -162,12 +172,19 @@ Growing up, Sir Tim was interested in trains and had a model railway in his bedr
 </div>
 
 <div style="border: 2px solid teal; text-align: center;">
+	<p>Online Audio</p>
 	<audio  controls="">
 		<source src="https://www.w3schools.com/html/horse.ogg" type="">
 	</audio>
+	<p>Local Audio</p>
+	<audio  controls="">
+		<source src="Ranga Ranga Rangasthalaana.mp3" type="">
+	</audio>
+	<p>Offline Video</p>
 	<video controls="" width="100%" height="20%">
 		<source src="Ninnu Kori.mp4" type="">
 	</video>
+	<p>Online Video with Iframe</p>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/-k_a4F6niqM" frameborder="10px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 

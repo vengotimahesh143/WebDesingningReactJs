@@ -1,0 +1,39 @@
+/*  *{
+    background-color: #666;
+}*/
+h2,h3,h4{
+    color: #9C640C;
+}
+.parent-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 2px;
+    margin: 1px;
+    border: 2px solid #000;
+    flex-wrap: wrap;
+}
+/*it is for mobile screens */
+@media screen and (max-width: 425px){
+	.card{
+		background-color: orange;
+	}
+	.parent-card{
+		flex-direction: column-reverse;
+	}
+}
+/*tablets*/
+@media screen and (min-width: 426px) and (max-width: 768px){
+	.card{
+		background-color: yellow;
+	}
+	.parent-card{
+		flex-direction: row-reverse;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+	.card{
+		background-color: rgb(51, 204, 255);
+	}
+}
